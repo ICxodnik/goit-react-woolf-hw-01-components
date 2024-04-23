@@ -3,6 +3,8 @@
 :root {
   --primary-text-color: rgb(49, 48, 48);
   --secondary-text-color: rgb(128, 128, 128);
+  --light-text-color: white;
+  --dark-text-color: rgb(84, 84, 84);
   --background-color: aliceblue;
   --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -14,6 +16,9 @@ ul {
 li,
 ul,
 p,
+h1,
+h2,
+h3,
 body {
   margin: 0;
   padding: 0;
