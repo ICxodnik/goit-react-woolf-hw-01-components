@@ -1,0 +1,37 @@
+.friendList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item {
+    box-shadow: var(--box-shadow);
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 15px;
+}
+
+.avatar {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 15%;
+}
+
+.activeStatus {
+    display:block;
+    border-radius: 50%;
+    background-color: rgb(45, 246, 92);
+    width: 10px;
+    height: 10px;
+}
+
+.passiveStatus {
+    display: block;
+    border-radius: 50%;
+    background-color: rgb(240, 70, 18);
+    width: 10px;
+    height: 10px;
+}
