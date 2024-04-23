@@ -10,7 +10,9 @@ import "./index.css";
 
 export const App = () => {
   return (
-    <>
+    <div className="application">
+      <Transaction items={transactions} />
+
       <Profile
         username={user.username}
         tag={user.tag}
@@ -18,9 +20,9 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <FriendList friends={friends} />
+
       <Statistic title="Upload stats" stats={data} />
-      <FriendList friends={friends} />;
-      <Transaction items={transactions} />;
-    </>
+    </div>
   );
 };

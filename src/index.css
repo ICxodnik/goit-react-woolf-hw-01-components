@@ -37,3 +37,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.application {
+  display: flex;
+  flex-direction: column;
+  max-height: 1000px;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
